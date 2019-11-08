@@ -70,21 +70,13 @@
 </template>
 
 <script>
-import { TwButton } from './TwButton';
-import { TwAutocomplete, TwAutocompleteItem } from './TwAutocomplete';
-import { TwInput } from './TwInput';
 
 // TODO Task-4: remove all these imports and the components from this instance and
 // check if your plugin is working
 
 export default {
   name: 'Playground',
-  components: {
-    TwButton,
-    TwAutocomplete,
-    TwAutocompleteItem,
-    TwInput
-  },
+  components: {},
   data () {
     return {
       mockData: ['item 1', 'item 2']
